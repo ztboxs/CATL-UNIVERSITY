@@ -6,9 +6,9 @@ spring:
   # DataSource Config
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://106.13.211.93:3306/create_table?serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://:3306/create_table?serverTimezone=Asia/Shanghai
     username: root
-    password: admin123
+    password: 
   # session 失效时间（分钟）
   session:
     timeout: 86400
